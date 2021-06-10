@@ -1,0 +1,201 @@
+html, body {
+    height: 100%;
+    font-size: 1rem;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #595959;
+    }
+    @media (min-width: 600px) {
+        body {
+          flex-wrap: nowrap;
+        }
+        div {
+          flex-basis: 33%;
+        }
+      }
+    
+    .index-font{
+    font-family:'Montserrat', sans-serif;
+    }
+    
+    .gray-background-color{
+        background-color: #6A7B8B;
+    }
+    .navbar-expand-lg {
+        background-color: #6A7B8B;
+        text-decoration-color: white;
+        display: inline-block;
+        padding-right: 2%;
+        padding-left: 5%;
+    }
+    
+    .navbar {
+         font-family: 'Josefin Sans', sans-serif;
+    }
+    
+    .nav-link {
+        padding: .5rem 1rem;
+        color: #FFFF;
+        font-size: 120%;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    }
+    
+    .logo-dark {
+        padding:10%;
+        justify-content: center;
+    }
+    .w3-image{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .w3-display-topmiddle {
+        color: linen;
+        font-size: 2rem;
+        text-shadow: 1px 1px darkslategrey;
+    }
+    .statement{
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 3%;
+        align-items: center;
+    }
+    
+    .flex-container {
+        display: flex;
+        flex-wrap: nowrap;
+        margin-left: 4%;
+        margin-right: 4%;
+      }
+      
+    .flex-container .box {
+        background-color:#a8afb9;
+        color:linen;
+        padding-top: 5%;
+        padding-bottom: 2%;
+        padding-left: 1%;
+        padding-right: 1%;
+        width: 50%;
+        margin: 2%;
+        text-align: center;
+        line-height: 45px;
+        font-size: 20px;
+        border-radius: 1%;
+        border-width: 1px;
+        border-color:linen;
+    }
+    
+    .button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .button-1{
+        background-color:  #6A7B8B;
+        border-radius: 4%;
+        border-width: 1px;
+        border-color:linen;
+        color: white;
+        padding: 16px 22px;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+    
+      .opening-details{
+        display: flex;
+        align-items: center;}
+       
+      .icon-open{
+          float: left;
+          margin-left: 5%;
+          margin-right: 5%;
+      }
+    .flex-container{
+        justify-content: center;
+    }
+      .flex-container .box-2 {
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-left: 1%;
+        padding-right: 1%;
+        width: 50%;
+        margin: 2%;
+        text-align: center;
+        line-height: 45px;
+        font-size: 20px;
+        border-radius: 1%;
+        border-width: 1px;
+        border-color:linen;
+        justify-content: center;}
+    
+    .additional-info{
+        display: flex;
+        justify-content: center;
+        font-size: 150%;
+        text-align: center;
+       
+    }
+    footer {
+        height: 15%;
+        bottom: 0;
+        padding-top: 2%;
+        padding-left:3%;
+        bottom: 0;
+        color: white;
+        text-align: center;}
+    
+    .footer-icon{
+        justify-content: center;
+        padding-right: 1%;
+        padding-left: 2%;}
+    
+    
+    /* HTML --> About*/
+    
+    .h1-article{
+        width:50% ;}
+    
+    .p-article-1{
+        width: 50%;
+        font-size: 150%;
+        padding-top: 3%;}
+    
+    .coffee-types-image{
+        float: right;}
+    
+    .p-article-2{
+        padding-top: 3%;
+        font-size: 150%;} 
+    
+    .articles{
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-bottom: 15%;}
+    
+    .interiors-image{
+        padding-right: 3%;
+        float: left;}
+    
+    /* HTML--> Contact */
+    .invite-text{
+     text-align-last: center;}
+    
+    .Mr-Coffee-Name{
+        padding-top: 10%;
+        width:200px;
+        margin-left: 18%;}
+    .address-info {
+        font-size: 120%;
+        width:200px;
+        margin-left: 18%;}
+    .tel-info {
+        font-size: 120%;
+        width:300px;
+        margin-left: 18%;}
+    .location-map{
+      display: flex;
+      justify-content: center;
+      padding:5%;
+      border-width: 2px }
